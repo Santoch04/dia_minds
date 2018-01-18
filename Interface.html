@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>FireRescue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="logo"><img src="images/logo.jpg" alt="Logo" /></div>
+  <div id="banner"><img src="images/main-image.jpg" alt="Main Image" /></div>
+  <div id="nav">
+    <ul>
+      <li class="nlink"><a href="http://www.free-css.com/">Home</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Archives</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Apparatus</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Members</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Gallery</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Traning</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">Store</a></li>
+      <li class="nlinkend"><a href="http://www.free-css.com/">Links</a></li>
+    </ul>
+ <form id="formulaire" action="carburant.php" method ="get">
+		<fieldset>
+			<label for "nom">Nom du véhicule : </label>
+				<select size="1" id="nom" name="nom">
+					<option value="VSAV"> VSAV </option>
+					<option value="VTU"> VTU </option>
+					<option value="VLHR"> VLHR </option>
+					<option value="FPT"> FPT </option>
+					<option value="CCF"> CCF </option>
+				</select><br/><br/>
+		
+			<label for "nb_km_dp">Nombre de km au dernier plein : </label>
+			<input id="nb_km_dp" name="nb_km_dp" type="number" size="10" maxlenght="9"/></br><br/>
+		
+			<label for="nb_km_a">Nombre de km au compteur depuis le dernier plein d'essence	: </label>
+			<input id="nb_km_m" name="nb_km_m" type="number" size="10" maxlenght="9"/></br><br/>
+		
+			<label for="carburant1">Essence</label>
+			<input id="carburant1" name="carburant1" type="radio" value="1"/>
+			
+			<label for="carburant2">Gazole</label>
+			<input id="carburant1" name="carburant1" type="radio" value="2"/>
+		
+			<label for="qte_essence">Quantité en litre &nbsp; </label>
+			<input id="qte_essence" name="qte_essence" type="number" size="10" maxlenght="3"/>
+		&nbsp;
+			<label for="prix">Prix en euros: </label>
+			<input id="prix" name="prix" type="number" step="0.01" size="10" maxlenght="3"/></br>
+		
+			<input id="envoyer" name="envoyer" type="submit" value="Envoyer"/>
+		</fieldset>
+	</form>
+  <div id="footer"> <a href="http://www.free-css.com/">Home</a> | <a href="http://www.free-css.com/">Archives</a> | <a href="http://www.free-css.com/">Apparatus</a> | <a href="http://www.free-css.com/">Members</a> | <a href="http://www.free-css.com/">Gallery</a> | <a href="http://www.free-css.com/">Training</a> | <a href="http://www.free-css.com/">Store</a> | <a href="http://www.free-css.com/">Links</a><br />
+    <br />
+    <p>&copy; Fire Rescue Squad 2006. All rights reserved. | designed by <a href="http://www.freewebsitetemplates.com">free website templates</a></p>
+ </div>
+</div>
+</body>
+</html>
+
+</html>
